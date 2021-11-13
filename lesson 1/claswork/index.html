@@ -10,27 +10,56 @@
 
 
 <script>
-  console.log("safsfasf");
-  document.write("sajhafiuaehg");
-  let chibs;
-  chibs= 'xxx';
-  console.log(chibs);
-  chibs = 250;
-  console.log(chibs);
-  const d = 333;
-  console.log(d);
-  console.log(typeof 'd');
-  console.log('4'==4);
-  console.log('4'===4);
-  let user8 = {
-    name: 'Viktor',
-    age: 32
+  // console.log("safsfasf");
+  // document.write("sajhafiuaehg");
+  // let chibs;
+  // chibs= 'xxx';
+  // console.log(chibs);
+  // chibs = 250;
+  // console.log(chibs);
+  // const d = 333;
+  // console.log(d);
+  // console.log(typeof 'd');
+  // console.log('4'==4);
+  // console.log('4'===4);
+  // let user8 = {
+  //   name: 'Viktor',
+  //   age: 32
+  // }
+  // console.log(user8)
+  // console.log(user8.age)
+  //
+  // let faa = [12,34,65,33, 'sfouahg',[3,6,4]]
+  // console.log(faa[5][1])
+  let books = [
+      {
+          title: '7 Habits of Highly Effective People: Restoring the Character Ethic',
+          price: 223,
+          image: 'https://kniga.biz.ua/images/goods/big/415.jpg'
+      },
+      {
+          title: 'To hell with everything! Take it and do it',
+          price: 99,
+          image: 'https://images.ua.prom.st/3080567261_kniga-k-cheТонкое искусство пофигизма. Парадоксальный способ жить счастливоrtu.jpg'
+      },
+      {
+          title: 'The subtle art of indifference. A paradoxical way to live happily',
+          price: 310,
+          image: 'https://balka-book.com/files/2017/12_25/18_21/u_files_store_3_564944.jpg'
+      },
+      {
+          title: 'Brian Tracy. Eat the frog! 21 ways to learn to keep up',
+          price: 200,
+          image: 'https://ic.pics.livejournal.com/andrey_misyuk/14311118/11763/11763_900.jpg'
+      },
+  ];
+  for (const book of books) {
+      document.write(
+          `<div>
+                        <h2>${book.title} ${book.price}</h2>
+                        <img src="${book.image}" alt="">
+                </div>`)
   }
-  console.log(user8)
-  console.log(user8.age)
-
-  let faa = [12,34,65,33, 'sfouahg',[3,6,4]]
-  console.log(faa[5][1])
 
 
 
